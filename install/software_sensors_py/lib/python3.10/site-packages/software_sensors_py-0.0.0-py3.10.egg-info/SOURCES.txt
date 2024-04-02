@@ -10,6 +10,7 @@ setup.py
 ../../build/software_sensors_py/software_sensors_py.egg-info/zip-safe
 resource/software_sensors_py
 software_sensors_py/__init__.py
+software_sensors_py/line_detector_node.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

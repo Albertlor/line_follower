@@ -9,6 +9,16 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
+#compile the human-readable file to computer-readable binary file
+add_executable(pid_controller_node src/pid_controller_node.cpp)
+ament_target_dependencies(pid_controller_node rclcpp)
+
+#install the computer-readable binary file (executable)
+install(TARGETS
+  pid_controller_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

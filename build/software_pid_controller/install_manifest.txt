@@ -1,3 +1,4 @@
+/home/albert/Workspaces/line_follower/install/software_pid_controller/lib/software_pid_controller/pid_controller_node
 /home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/package_run_dependencies/software_pid_controller
 /home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/parent_prefix_path/software_pid_controller
 /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/ament_prefix_path.sh
