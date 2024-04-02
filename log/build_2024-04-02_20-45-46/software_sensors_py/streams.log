@@ -1,0 +1,33 @@
+[0.455s] Invoking command in '/home/albert/Workspaces/line_follower/src/software_sensors_py': PYTHONPATH=/home/albert/Workspaces/line_follower/build/software_sensors_py/prefix_override:/home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/software_sensors_py build --build-base /home/albert/Workspaces/line_follower/build/software_sensors_py/build install --record /home/albert/Workspaces/line_follower/build/software_sensors_py/install.log --single-version-externally-managed install_data
+[0.596s] running egg_info
+[0.596s] creating ../../build/software_sensors_py/software_sensors_py.egg-info
+[0.596s] writing ../../build/software_sensors_py/software_sensors_py.egg-info/PKG-INFO
+[0.596s] writing dependency_links to ../../build/software_sensors_py/software_sensors_py.egg-info/dependency_links.txt
+[0.596s] writing entry points to ../../build/software_sensors_py/software_sensors_py.egg-info/entry_points.txt
+[0.597s] writing requirements to ../../build/software_sensors_py/software_sensors_py.egg-info/requires.txt
+[0.597s] writing top-level names to ../../build/software_sensors_py/software_sensors_py.egg-info/top_level.txt
+[0.597s] writing manifest file '../../build/software_sensors_py/software_sensors_py.egg-info/SOURCES.txt'
+[0.597s] reading manifest file '../../build/software_sensors_py/software_sensors_py.egg-info/SOURCES.txt'
+[0.598s] writing manifest file '../../build/software_sensors_py/software_sensors_py.egg-info/SOURCES.txt'
+[0.598s] running build
+[0.598s] running build_py
+[0.598s] creating /home/albert/Workspaces/line_follower/build/software_sensors_py/build
+[0.598s] creating /home/albert/Workspaces/line_follower/build/software_sensors_py/build/lib
+[0.598s] creating /home/albert/Workspaces/line_follower/build/software_sensors_py/build/lib/software_sensors_py
+[0.598s] copying software_sensors_py/__init__.py -> /home/albert/Workspaces/line_follower/build/software_sensors_py/build/lib/software_sensors_py
+[0.598s] running install
+[0.598s] running install_lib
+[0.599s] creating /home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages/software_sensors_py
+[0.599s] copying /home/albert/Workspaces/line_follower/build/software_sensors_py/build/lib/software_sensors_py/__init__.py -> /home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages/software_sensors_py
+[0.599s] byte-compiling /home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages/software_sensors_py/__init__.py to __init__.cpython-310.pyc
+[0.599s] running install_data
+[0.599s] creating /home/albert/Workspaces/line_follower/install/software_sensors_py/share/ament_index
+[0.599s] creating /home/albert/Workspaces/line_follower/install/software_sensors_py/share/ament_index/resource_index
+[0.599s] creating /home/albert/Workspaces/line_follower/install/software_sensors_py/share/ament_index/resource_index/packages
+[0.599s] copying resource/software_sensors_py -> /home/albert/Workspaces/line_follower/install/software_sensors_py/share/ament_index/resource_index/packages
+[0.599s] copying package.xml -> /home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py
+[0.599s] running install_egg_info
+[0.600s] Copying ../../build/software_sensors_py/software_sensors_py.egg-info to /home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages/software_sensors_py-0.0.0-py3.10.egg-info
+[0.600s] running install_scripts
+[0.614s] writing list of installed files to '/home/albert/Workspaces/line_follower/build/software_sensors_py/install.log'
+[0.628s] Invoked command in '/home/albert/Workspaces/line_follower/src/software_sensors_py' returned '0': PYTHONPATH=/home/albert/Workspaces/line_follower/build/software_sensors_py/prefix_override:/home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/software_sensors_py build --build-base /home/albert/Workspaces/line_follower/build/software_sensors_py/build install --record /home/albert/Workspaces/line_follower/build/software_sensors_py/install.log --single-version-externally-managed install_data

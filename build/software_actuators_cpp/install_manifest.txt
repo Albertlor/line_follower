@@ -1,0 +1,15 @@
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/ament_index/resource_index/package_run_dependencies/software_actuators_cpp
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/ament_index/resource_index/parent_prefix_path/software_actuators_cpp
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/environment/ament_prefix_path.sh
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/environment/ament_prefix_path.dsv
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/environment/path.sh
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/environment/path.dsv
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/local_setup.bash
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/local_setup.sh
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/local_setup.zsh
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/local_setup.dsv
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.dsv
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/ament_index/resource_index/packages/software_actuators_cpp
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/cmake/software_actuators_cppConfig.cmake
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/cmake/software_actuators_cppConfig-version.cmake
+/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.xml

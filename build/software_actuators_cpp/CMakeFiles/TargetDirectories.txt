@@ -1,0 +1,9 @@
+/home/albert/Workspaces/line_follower/build/software_actuators_cpp/CMakeFiles/uninstall.dir
+/home/albert/Workspaces/line_follower/build/software_actuators_cpp/CMakeFiles/software_actuators_cpp_uninstall.dir
+/home/albert/Workspaces/line_follower/build/software_actuators_cpp/CMakeFiles/test.dir
+/home/albert/Workspaces/line_follower/build/software_actuators_cpp/CMakeFiles/edit_cache.dir
+/home/albert/Workspaces/line_follower/build/software_actuators_cpp/CMakeFiles/rebuild_cache.dir
+/home/albert/Workspaces/line_follower/build/software_actuators_cpp/CMakeFiles/list_install_components.dir
+/home/albert/Workspaces/line_follower/build/software_actuators_cpp/CMakeFiles/install.dir
+/home/albert/Workspaces/line_follower/build/software_actuators_cpp/CMakeFiles/install/local.dir
+/home/albert/Workspaces/line_follower/build/software_actuators_cpp/CMakeFiles/install/strip.dir

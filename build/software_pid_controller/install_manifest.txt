@@ -1,0 +1,15 @@
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/package_run_dependencies/software_pid_controller
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/parent_prefix_path/software_pid_controller
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/ament_prefix_path.sh
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/ament_prefix_path.dsv
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/path.sh
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/path.dsv
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.bash
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.sh
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.zsh
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.dsv
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.dsv
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/packages/software_pid_controller
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/cmake/software_pid_controllerConfig.cmake
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/cmake/software_pid_controllerConfig-version.cmake
+/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.xml
