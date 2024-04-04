@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "line_detector_node = software_sensors_py.line_detector_node:main"
         ],
     },
 )

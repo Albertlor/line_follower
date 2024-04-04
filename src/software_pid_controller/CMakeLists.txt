@@ -8,10 +8,11 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(example_interfaces REQUIRED)
 
 #compile the human-readable file to computer-readable binary file
 add_executable(pid_controller_node src/pid_controller_node.cpp)
-ament_target_dependencies(pid_controller_node rclcpp)
+ament_target_dependencies(pid_controller_node rclcpp example_interfaces)
 
 #install the computer-readable binary file (executable)
 install(TARGETS
