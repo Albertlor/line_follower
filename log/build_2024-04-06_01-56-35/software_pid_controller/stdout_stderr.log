@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target pid_controller_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pid_controller_node.dir/src/pid_controller_node.cpp.o[0m
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:[m[K In member function ‘[01m[Kfloat PID_Controller_Node::get_linear_error_factor(double)[m[K’:
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:35:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::numbers[m[K’ has not been declared
+   35 |         if(error<std::[01;31m[Knumbers[m[K::pi/8){
+      |                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:38:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::numbers[m[K’ has not been declared
+   38 |         else if(error>std::[01;31m[Knumbers[m[K::pi/8 && error<std::numbers::pi/7){
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:38:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::numbers[m[K’ has not been declared
+   38 |         else if(error>std::numbers::pi/8 && error<std::[01;31m[Knumbers[m[K::pi/7){
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:41:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::numbers[m[K’ has not been declared
+   41 |         else if(error>std::[01;31m[Knumbers[m[K::pi/7 && error<std::numbers::pi/6){
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:41:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::numbers[m[K’ has not been declared
+   41 |         else if(error>std::numbers::pi/7 && error<std::[01;31m[Knumbers[m[K::pi/6){
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:44:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::numbers[m[K’ has not been declared
+   44 |         else if(error>std::[01;31m[Knumbers[m[K::pi/6 && error<std::numbers::pi/5){
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:44:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::numbers[m[K’ has not been declared
+   44 |         else if(error>std::numbers::pi/6 && error<std::[01;31m[Knumbers[m[K::pi/5){
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:47:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::numbers[m[K’ has not been declared
+   47 |         else if(error>std::[01;31m[Knumbers[m[K::pi/5 && error<std::numbers::pi/4){
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:47:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::numbers[m[K’ has not been declared
+   47 |         else if(error>std::numbers::pi/5 && error<std::[01;31m[Knumbers[m[K::pi/4){
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:53:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   53 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/pid_controller_node.dir/build.make:76: CMakeFiles/pid_controller_node.dir/src/pid_controller_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pid_controller_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -15,7 +15,7 @@ class Line_Detector_Node(Node):
 
     def publish_to_error_state(self):
         msg = String()
-        msg.data = "3.14"
+        msg.data = "0.1698"
         self.publisher_.publish(msg)
 
 def main(args=None):
