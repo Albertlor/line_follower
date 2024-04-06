@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/albert/Workspaces/line_follower/build/line_follower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/line_follower_description -- -j20 -l20
+[0.169s] Invoked command in '/home/albert/Workspaces/line_follower/build/line_follower_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/line_follower_description -- -j20 -l20
+[0.189s] Invoking command in '/home/albert/Workspaces/line_follower/build/line_follower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/line_follower_description
+[0.196s] -- Install configuration: ""
+[0.196s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.196s]   file INSTALL cannot find
+[0.196s]   "/home/albert/Workspaces/line_follower/src/line_follower_description/urdf":
+[0.197s]   No such file or directory.
+[0.197s] 
+[0.197s] [0m
+[0.208s] Invoked command in '/home/albert/Workspaces/line_follower/build/line_follower_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/line_follower_description
