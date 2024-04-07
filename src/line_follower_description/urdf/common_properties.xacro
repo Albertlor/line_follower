@@ -7,7 +7,11 @@
     </material>
 
     <material name="grey">
-        <color rgba="0.5 0.5 0.5 1"/>
+        <color rgba="0.9 0.9 0.9 1"/>
+    </material>
+
+    <material name="transparent_grey">
+        <color rgba="0.9 0.9 0.9 0.5"/>
     </material>
 
     <material name="orange">
@@ -18,13 +22,17 @@
         <color rgba="1.0 1.0 0 1"/>
     </material>
 
+    <material name="black">
+        <color rgba="0.13 0.13 0.13 1"/>
+    </material>
+
     <xacro:macro name="box_inertia" params="m l w h xyz rpy">
         <inertial>
             <origin xyz="${xyz}" rpy="${rpy}"/>
             <mass value="${m}"/>
-            <inertia ixx="${(m/12) * (h*h + l*l)}" ixy="0" ixz="0"
-                     iyy="${(m/12) * (w*w + l*l)}" iyz="0"
-                     izz="${(m/12) * (w*w + h*h)}"/>
+            <inertia ixx="${(m/12) * (w*w + h*h)}" ixy="0" ixz="0"
+                     iyy="${(m/12) * (h*h + l*l)}" iyz="0"
+                     izz="${(m/12) * (w*w + l*l)}"/>
         </inertial>
     </xacro:macro>
 
@@ -33,8 +41,8 @@
             <origin xyz="${xyz}" rpy="${rpy}"/>
             <mass value="${m}"/>
             <inertia ixx="${(m/12) * (3*r*r + h*h)}" ixy="0" ixz="0"
-                     iyy="${(m/12) * (3*r*r + h*h)}" iyz="0"
-                     izz="${(m/2) * (r*r)}"/>
+                     iyy="${(m/2) * (r*r)}" iyz="0"
+                     izz="${(m/12) * (3*r*r + h*h)}"/>
         </inertial>
     </xacro:macro>
 
