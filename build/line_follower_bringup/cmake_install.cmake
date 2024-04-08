@@ -46,6 +46,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/line_follower_bringup/" TYPE DIRECTORY FILES
     "/home/albert/Workspaces/line_follower/src/line_follower_bringup/launch"
     "/home/albert/Workspaces/line_follower/src/line_follower_bringup/rviz"
+    "/home/albert/Workspaces/line_follower/src/line_follower_bringup/worlds"
+    "/home/albert/Workspaces/line_follower/src/line_follower_bringup/models"
     )
 endif()
 

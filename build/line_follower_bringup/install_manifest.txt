@@ -1,5 +1,13 @@
 /home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup//launch/line_follower_gazebo.launch.xml
 /home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup//rviz/urdf_config.rviz
+/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup//worlds/line_follower_world.world
+/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup//models/black_line/model.sdf
+/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup//models/black_line/model.config
+/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup//models/black_line/meshes/line.dae
+/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup//models/black_line/meshes/black_line.dae
+/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup//models/black_line/meshes/untitled.dae
+/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup//models/black_line/meshes/linebot_track2.dae
+/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup//models/black_line/meshes/linebot_track.dae
 /home/albert/Workspaces/line_follower/install/line_follower_bringup/share/ament_index/resource_index/package_run_dependencies/line_follower_bringup
 /home/albert/Workspaces/line_follower/install/line_follower_bringup/share/ament_index/resource_index/parent_prefix_path/line_follower_bringup
 /home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/environment/ament_prefix_path.sh

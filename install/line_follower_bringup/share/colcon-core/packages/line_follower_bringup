@@ -1,1 +1,1 @@
-gazebo_ros:line_follower_description:robot_state_publisher
+gazebo_ros:geometry_msgs:line_follower_description:robot_state_publisher:std_msgs
