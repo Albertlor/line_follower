@@ -1,1 +1,1 @@
-geometry_msgs;std_msgs;line_follower_description;robot_state_publisher;gazebo_ros;ament_lint_auto;ament_lint_common
+line_follower_description;robot_state_publisher;gazebo_ros;ament_lint_auto;ament_lint_common

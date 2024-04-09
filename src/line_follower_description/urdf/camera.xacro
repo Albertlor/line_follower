@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:property name="camera_length" value="0.0331" />
+    <xacro:property name="camera_width" value="0.014" />
+    <xacro:property name="camera_depth" value="0.001" />
+
+    <link name="camera_link_0">
+        <visual>
+            <geometry>
+                <box size="${camera_length} ${camera_width} ${camera_depth}" />
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${camera_length} ${camera_width} ${camera_depth}" />
+            </geometry>
+        </collision>
+        <xacro:box_inertia m="0.1" l="${camera_length}" w="${camera_width}" h="${camera_depth}"
+                           xyz="0 0 0" rpy="0 0 0" />
+    </link>
+
+    <joint name="base_camera_joint_0" type="fixed">
+        <parent link="base_link" />
+        <child link="camera_link_0" />
+        <origin xyz="${(base_length + camera_depth) / 2.0} 0.036 ${-2*base_height}" rpy="0 ${pi/2} 0" />
+    </joint>
+
+    <link name="camera_link_1">
+        <visual>
+            <geometry>
+                <box size="${camera_length} ${camera_width} ${camera_depth}" />
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${camera_length} ${camera_width} ${camera_depth}" />
+            </geometry>
+        </collision>
+        <xacro:box_inertia m="0.1" l="${camera_length}" w="${camera_width}" h="${camera_depth}"
+                           xyz="0 0 0" rpy="0 0 0" />
+    </link>
+
+    <joint name="base_camera_joint_1" type="fixed">
+        <parent link="base_link" />
+        <child link="camera_link_1" />
+        <origin xyz="${(base_length + camera_depth) / 2.0} 0.012 ${-2*base_height}" rpy="0 ${pi/2} 0" />
+    </joint>
+
+    <link name="camera_link_2">
+        <visual>
+            <geometry>
+                <box size="${camera_length} ${camera_width} ${camera_depth}" />
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${camera_length} ${camera_width} ${camera_depth}" />
+            </geometry>
+        </collision>
+        <xacro:box_inertia m="0.1" l="${camera_length}" w="${camera_width}" h="${camera_depth}"
+                           xyz="0 0 0" rpy="0 0 0" />
+    </link>
+
+    <joint name="base_camera_joint_2" type="fixed">
+        <parent link="base_link" />
+        <child link="camera_link_2" />
+        <origin xyz="${(base_length + camera_depth) / 2.0} -0.012 ${-2*base_height}" rpy="0 ${pi/2} 0" />
+    </joint>
+
+    <link name="camera_link_3">
+        <visual>
+            <geometry>
+                <box size="${camera_length} ${camera_width} ${camera_depth}" />
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${camera_length} ${camera_width} ${camera_depth}" />
+            </geometry>
+        </collision>
+        <xacro:box_inertia m="0.1" l="${camera_length}" w="${camera_width}" h="${camera_depth}"
+                           xyz="0 0 0" rpy="0 0 0" />
+    </link>
+
+    <joint name="base_camera_joint_3" type="fixed">
+        <parent link="base_link" />
+        <child link="camera_link_3" />
+        <origin xyz="${(base_length + camera_depth) / 2.0} -0.036 ${-2*base_height}" rpy="0 ${pi/2} 0" />
+    </joint>
+
+
+    <link name="camera_link_optical_0">
+    </link>
+
+    <joint name="camera_optical_joint_0" type="fixed">
+        <!-- these values have to be these values otherwise the gazebo camera
+            image won't be aligned properly with the frame it is supposedly
+            originating from -->
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+        <parent link="camera_link_0"/>
+        <child link="camera_link_optical_0"/>
+    </joint>
+
+    <link name="camera_link_optical_1">
+    </link>
+
+    <joint name="camera_optical_joint_1" type="fixed">
+        <!-- these values have to be these values otherwise the gazebo camera
+            image won't be aligned properly with the frame it is supposedly
+            originating from -->
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+        <parent link="camera_link_0"/>
+        <child link="camera_link_optical_1"/>
+    </joint>
+
+    <link name="camera_link_optical_2">
+    </link>
+
+    <joint name="camera_optical_joint_2" type="fixed">
+        <!-- these values have to be these values otherwise the gazebo camera
+            image won't be aligned properly with the frame it is supposedly
+            originating from -->
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+        <parent link="camera_link_0"/>
+        <child link="camera_link_optical_2"/>
+    </joint>
+
+    <link name="camera_link_optical_3">
+    </link>
+
+    <joint name="camera_optical_joint_3" type="fixed">
+        <!-- these values have to be these values otherwise the gazebo camera
+            image won't be aligned properly with the frame it is supposedly
+            originating from -->
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+        <parent link="camera_link_3"/>
+        <child link="camera_link_optical_3"/>
+    </joint>
+    
+
+    <gazebo reference="camera_link_0">
+        <material>Gazebo/Red</material>
+        <sensor name="camera_sensor_0" type="camera">
+            <pose>0 0 0 0 0 0</pose>
+            <visualize>true</visualize>
+            <update_rate>10.0</update_rate>
+            <plugin name="camera_controller_0" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical_0</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <gazebo reference="camera_link_1">
+        <material>Gazebo/Red</material>
+        <sensor name="camera_sensor_1" type="camera">
+            <pose>0 0 0 0 0 0</pose>
+            <visualize>true</visualize>
+            <update_rate>10.0</update_rate>
+            <plugin name="camera_controller_1" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical_1</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <gazebo reference="camera_link_2">
+        <material>Gazebo/Red</material>
+        <sensor name="camera_sensor_2" type="camera">
+            <pose>0 0 0 0 0 0</pose>
+            <visualize>true</visualize>
+            <update_rate>10.0</update_rate>
+            <plugin name="camera_controller_2" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical_2</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <gazebo reference="camera_link_3">
+        <material>Gazebo/Red</material>
+        <sensor name="camera_sensor_3" type="camera">
+            <pose>0 0 0 0 0 0</pose>
+            <visualize>true</visualize>
+            <update_rate>10.0</update_rate>
+            <plugin name="camera_controller_3" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical_3</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+</robot>
