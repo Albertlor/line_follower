@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/albert/Workspaces/line_follower/build/software_pid_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/software_pid_controller -- -j20 -l20
+[0.048s] [100%] Built target pid_controller_node
+[0.176s] Invoked command in '/home/albert/Workspaces/line_follower/build/software_pid_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/software_pid_controller -- -j20 -l20
+[0.200s] Invoking command in '/home/albert/Workspaces/line_follower/build/software_pid_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/software_pid_controller
+[0.206s] -- Install configuration: ""
+[0.206s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/lib/software_pid_controller/pid_controller_node
+[0.206s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/package_run_dependencies/software_pid_controller
+[0.206s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/parent_prefix_path/software_pid_controller
+[0.206s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/ament_prefix_path.sh
+[0.206s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/ament_prefix_path.dsv
+[0.206s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/path.sh
+[0.206s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/path.dsv
+[0.206s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.bash
+[0.206s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.sh
+[0.207s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.zsh
+[0.207s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.dsv
+[0.207s] -- Installing: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.dsv
+[0.207s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/packages/software_pid_controller
+[0.207s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/cmake/software_pid_controllerConfig.cmake
+[0.207s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/cmake/software_pid_controllerConfig-version.cmake
+[0.207s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.xml
+[0.220s] Invoked command in '/home/albert/Workspaces/line_follower/build/software_pid_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/software_pid_controller

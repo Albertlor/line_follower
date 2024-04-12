@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <xacro:property name="camera_length" value="0.0331" />
-    <xacro:property name="camera_width" value="0.014" />
-    <xacro:property name="camera_depth" value="0.001" />
+    <xacro:property name="camera_length" value="0.0001" />
+    <xacro:property name="camera_width" value="0.0001" />
+    <xacro:property name="camera_depth" value="0.0001" />
 
     <link name="camera_link_0">
         <visual>
             <geometry>
                 <box size="${camera_length} ${camera_width} ${camera_depth}" />
             </geometry>
-            <material name="grey" />
+            <material name="red" />
         </visual>
         <collision>
             <geometry>
                 <box size="${camera_length} ${camera_width} ${camera_depth}" />
             </geometry>
         </collision>
-        <xacro:box_inertia m="0.1" l="${camera_length}" w="${camera_width}" h="${camera_depth}"
+        <xacro:box_inertia m="0.0000000000000000000000000000000001" l="${camera_length}" w="${camera_width}" h="${camera_depth}"
                            xyz="0 0 0" rpy="0 0 0" />
     </link>
 
     <joint name="base_camera_joint_0" type="fixed">
         <parent link="base_link" />
         <child link="camera_link_0" />
-        <origin xyz="${(base_length + camera_depth) / 2.0} 0.036 ${-2*base_height}" rpy="0 ${pi/2} 0" />
+        <origin xyz="${(base_length + camera_depth) / 2.0} 0 0.1" rpy="0 ${pi/2} 0" />
     </joint>
 
-    <link name="camera_link_1">
+    <!-- <link name="camera_link_1">
         <visual>
             <geometry>
                 <box size="${camera_length} ${camera_width} ${camera_depth}" />
@@ -91,7 +91,7 @@
         <parent link="base_link" />
         <child link="camera_link_3" />
         <origin xyz="${(base_length + camera_depth) / 2.0} -0.036 ${-2*base_height}" rpy="0 ${pi/2} 0" />
-    </joint>
+    </joint> -->
 
 
     <link name="camera_link_optical_0">
@@ -106,13 +106,10 @@
         <child link="camera_link_optical_0"/>
     </joint>
 
-    <link name="camera_link_optical_1">
+    <!-- <link name="camera_link_optical_1">
     </link>
 
     <joint name="camera_optical_joint_1" type="fixed">
-        <!-- these values have to be these values otherwise the gazebo camera
-            image won't be aligned properly with the frame it is supposedly
-            originating from -->
         <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
         <parent link="camera_link_0"/>
         <child link="camera_link_optical_1"/>
@@ -122,9 +119,6 @@
     </link>
 
     <joint name="camera_optical_joint_2" type="fixed">
-        <!-- these values have to be these values otherwise the gazebo camera
-            image won't be aligned properly with the frame it is supposedly
-            originating from -->
         <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
         <parent link="camera_link_0"/>
         <child link="camera_link_optical_2"/>
@@ -134,13 +128,10 @@
     </link>
 
     <joint name="camera_optical_joint_3" type="fixed">
-        <!-- these values have to be these values otherwise the gazebo camera
-            image won't be aligned properly with the frame it is supposedly
-            originating from -->
         <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
         <parent link="camera_link_3"/>
         <child link="camera_link_optical_3"/>
-    </joint>
+    </joint> -->
     
 
     <gazebo reference="camera_link_0">
@@ -155,7 +146,7 @@
         </sensor>
     </gazebo>
 
-    <gazebo reference="camera_link_1">
+    <!-- <gazebo reference="camera_link_1">
         <material>Gazebo/Red</material>
         <sensor name="camera_sensor_1" type="camera">
             <pose>0 0 0 0 0 0</pose>
@@ -189,6 +180,6 @@
                 <frame_name>camera_link_optical_3</frame_name>
             </plugin>
         </sensor>
-    </gazebo>
+    </gazebo> -->
 
 </robot>
