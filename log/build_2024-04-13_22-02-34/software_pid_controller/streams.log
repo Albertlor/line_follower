@@ -1,0 +1,50 @@
+[0.010s] Invoking command in '/home/albert/Workspaces/line_follower/build/software_pid_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/software_pid_controller -- -j20 -l20
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target pid_controller_node[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/pid_controller_node.dir/src/pid_controller_node.cpp.o[0m
+[1.438s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.438s]                  from [01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:1[m[K:
+[1.438s] [01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:[m[K In member function ‘[01m[Kvoid PID_Controller_Node::subscribe_error_state(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.438s] [01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:149:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.438s]   149 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"Left Speed: %s"[m[K,[32m[K'\n'[m[K);
+[1.438s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~[m[K [32m[K~~~~[m[K
+[1.438s]       |                                                         [32m[K|[m[K
+[1.438s]       |                                                         [32m[Kint[m[K
+[1.438s] [01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller_node.cpp:149:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.438s]   149 |   RCLCPP_INFO(this->get_logger(),"Left Speed: [01;36m[K%s[m[K",'\n');
+[1.438s]       |                                               [01;36m[K~^[m[K
+[1.438s]       |                                                [01;36m[K|[m[K
+[1.438s]       |                                                [01;36m[Kchar*[m[K
+[1.438s]       |                                               [32m[K%d[m[K
+[5.251s] [100%] [32m[1mLinking CXX executable pid_controller_node[0m
+[5.518s] [100%] Built target pid_controller_node
+[5.527s] Invoked command in '/home/albert/Workspaces/line_follower/build/software_pid_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/software_pid_controller -- -j20 -l20
+[5.557s] Invoking command in '/home/albert/Workspaces/line_follower/build/software_pid_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/software_pid_controller
+[5.571s] -- Install configuration: ""
+[5.571s] -- Installing: /home/albert/Workspaces/line_follower/install/software_pid_controller/lib/software_pid_controller/pid_controller_node
+[5.576s] -- Set runtime path of "/home/albert/Workspaces/line_follower/install/software_pid_controller/lib/software_pid_controller/pid_controller_node" to ""
+[5.576s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/package_run_dependencies/software_pid_controller
+[5.577s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/parent_prefix_path/software_pid_controller
+[5.577s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/ament_prefix_path.sh
+[5.577s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/ament_prefix_path.dsv
+[5.577s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/path.sh
+[5.577s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/path.dsv
+[5.577s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.bash
+[5.577s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.sh
+[5.577s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.zsh
+[5.577s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.dsv
+[5.578s] -- Installing: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.dsv
+[5.578s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/packages/software_pid_controller
+[5.578s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/cmake/software_pid_controllerConfig.cmake
+[5.578s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/cmake/software_pid_controllerConfig-version.cmake
+[5.578s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.xml
+[5.580s] Invoked command in '/home/albert/Workspaces/line_follower/build/software_pid_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/software_pid_controller

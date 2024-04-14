@@ -210,6 +210,43 @@ pid_controller_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pid_controller_node.dir/build.make CMakeFiles/pid_controller_node.dir/build
 .PHONY : pid_controller_node/fast
 
+#=============================================================================
+# Target rules for targets named pid_controller2_node
+
+# Build rule for target.
+pid_controller2_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pid_controller2_node
+.PHONY : pid_controller2_node
+
+# fast build rule for target.
+pid_controller2_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pid_controller2_node.dir/build.make CMakeFiles/pid_controller2_node.dir/build
+.PHONY : pid_controller2_node/fast
+
+src/pid_controller2_node.o: src/pid_controller2_node.cpp.o
+.PHONY : src/pid_controller2_node.o
+
+# target to build an object file
+src/pid_controller2_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pid_controller2_node.dir/build.make CMakeFiles/pid_controller2_node.dir/src/pid_controller2_node.cpp.o
+.PHONY : src/pid_controller2_node.cpp.o
+
+src/pid_controller2_node.i: src/pid_controller2_node.cpp.i
+.PHONY : src/pid_controller2_node.i
+
+# target to preprocess a source file
+src/pid_controller2_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pid_controller2_node.dir/build.make CMakeFiles/pid_controller2_node.dir/src/pid_controller2_node.cpp.i
+.PHONY : src/pid_controller2_node.cpp.i
+
+src/pid_controller2_node.s: src/pid_controller2_node.cpp.s
+.PHONY : src/pid_controller2_node.s
+
+# target to generate assembly for a file
+src/pid_controller2_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pid_controller2_node.dir/build.make CMakeFiles/pid_controller2_node.dir/src/pid_controller2_node.cpp.s
+.PHONY : src/pid_controller2_node.cpp.s
+
 src/pid_controller_node.o: src/pid_controller_node.cpp.o
 .PHONY : src/pid_controller_node.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... software_pid_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... pid_controller2_node"
 	@echo "... pid_controller_node"
+	@echo "... src/pid_controller2_node.o"
+	@echo "... src/pid_controller2_node.i"
+	@echo "... src/pid_controller2_node.s"
 	@echo "... src/pid_controller_node.o"
 	@echo "... src/pid_controller_node.i"
 	@echo "... src/pid_controller_node.s"

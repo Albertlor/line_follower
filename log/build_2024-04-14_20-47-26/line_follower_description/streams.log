@@ -1,0 +1,30 @@
+[0.017s] Invoking command in '/home/albert/Workspaces/line_follower/build/line_follower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/line_follower_description -- -j20 -l20
+[0.190s] Invoked command in '/home/albert/Workspaces/line_follower/build/line_follower_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/line_follower_description -- -j20 -l20
+[0.214s] Invoking command in '/home/albert/Workspaces/line_follower/build/line_follower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/line_follower_description
+[0.220s] -- Install configuration: ""
+[0.220s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description//urdf
+[0.220s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description//urdf/line_follower.urdf.xacro
+[0.220s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description//urdf/mobile_base.xacro
+[0.220s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description//urdf/camera.xacro
+[0.220s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description//urdf/mobile_base_gazebo.xacro
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description//urdf/common_properties.xacro
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description//launch
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description//launch/display.launch.xml
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description//rviz
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description//rviz/urdf_config.rviz
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/ament_index/resource_index/package_run_dependencies/line_follower_description
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/ament_index/resource_index/parent_prefix_path/line_follower_description
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/environment/ament_prefix_path.sh
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/environment/ament_prefix_path.dsv
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/environment/path.sh
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/environment/path.dsv
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/local_setup.bash
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/local_setup.sh
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/local_setup.zsh
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/local_setup.dsv
+[0.221s] -- Installing: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.dsv
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/ament_index/resource_index/packages/line_follower_description
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/cmake/line_follower_descriptionConfig.cmake
+[0.221s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/cmake/line_follower_descriptionConfig-version.cmake
+[0.222s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.xml
+[0.234s] Invoked command in '/home/albert/Workspaces/line_follower/build/line_follower_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/line_follower_description

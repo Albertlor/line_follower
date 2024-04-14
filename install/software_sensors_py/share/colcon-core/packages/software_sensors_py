@@ -1,1 +1,1 @@
-cv2:cv_bridge:example_interfaces:math:numpy:rclpy:sensor_msgs
+cv2:cv_bridge:example_interfaces:math:numpy:rclpy:sensor_msgs:std_msgs

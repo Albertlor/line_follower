@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:14 (find_package):
+  By not providing "Findalgorithm.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "algorithm", but CMake did not find one.
+
+  Could not find a package configuration file provided by "algorithm" with
+  any of the following names:
+
+    algorithmConfig.cmake
+    algorithm-config.cmake
+
+  Add the installation prefix of "algorithm" to CMAKE_PREFIX_PATH or set
+  "algorithm_DIR" to a directory containing one of the above files.  If
+  "algorithm" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

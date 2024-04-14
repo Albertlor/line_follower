@@ -9,14 +9,20 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(example_interfaces REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 #compile the human-readable file to computer-readable binary file
 add_executable(pid_controller_node src/pid_controller_node.cpp)
-ament_target_dependencies(pid_controller_node rclcpp example_interfaces)
+ament_target_dependencies(pid_controller_node rclcpp example_interfaces std_msgs geometry_msgs)
+
+add_executable(pid_controller2_node src/pid_controller2_node.cpp)
+ament_target_dependencies(pid_controller2_node rclcpp example_interfaces std_msgs geometry_msgs)
 
 #install the computer-readable binary file (executable)
 install(TARGETS
   pid_controller_node
+  pid_controller2_node
   DESTINATION lib/${PROJECT_NAME}
 )
 

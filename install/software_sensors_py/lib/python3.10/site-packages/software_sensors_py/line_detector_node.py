@@ -3,7 +3,7 @@ import cv2
 import math
 import numpy as np
 from rclpy.node import Node
-from example_interfaces.msg import String
+from std_msgs.msg import Float64
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 
@@ -14,7 +14,7 @@ class Line_Detector_Node(Node):
         self.sensor_center_position=1.5
         self.base_length=0.21 #in meter
         self.chord_length_error=0
-        self.angular_error_str=String()
+        self.angular_error_str=Float64()
         
         # Subscribing to the camera image topics
         self.subscriber_cam0 = self.create_subscription(
@@ -24,8 +24,8 @@ class Line_Detector_Node(Node):
             10
         )
 
-        self.publisher_ = self.create_publisher(String, "error_state", 10)
-        self.timer_ = self.create_timer(0.5, self.publish_to_error_state)
+        self.publisher_ = self.create_publisher(Float64, "error_state", 10)
+        #self.timer_ = self.create_timer(0.5, self.publish_to_error_state)
 
     def publish_to_error_state(self):
         self.publisher_.publish(self.angular_error_str)
@@ -55,7 +55,8 @@ class Line_Detector_Node(Node):
         angular_error = math.atan2(self.chord_length_error,self.base_length/2)
 
         # Publish angular_error to a topic
-        self.angular_error_str.data = f"{angular_error}"
+        self.angular_error_str.data = angular_error
+        self.publish_to_error_state()
         
         self.display_image(roi_list, "Camera")
 
