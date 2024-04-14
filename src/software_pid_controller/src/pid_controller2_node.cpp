@@ -10,7 +10,7 @@ public:
       kp_(16.0),
       kd_(0.0001),
       ki_(0.0000001),
-      dt_(0.0005),  // 10 ms control loop
+      dt_(0.0005), 
       integral_(0.0),
       previous_error_(0.0) {
         error_subscriber_ = this->create_subscription<std_msgs::msg::Float64>(
