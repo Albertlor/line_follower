@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target pid_controller2_node[0m
+[ 50%] Built target pid_controller_node
+[ 75%] [32mBuilding CXX object CMakeFiles/pid_controller2_node.dir/src/pid_controller2_node.cpp.o[0m
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller2_node.cpp:[m[K In constructor ‘[01m[KLineFollowingPIDController::LineFollowingPIDController()[m[K’:
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller2_node.cpp:11:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+   11 |       kd_(0.000 [01;31m[K01[m[K),
+      |                 [01;31m[K^~[m[K
+[01m[K/home/albert/Workspaces/line_follower/src/software_pid_controller/src/pid_controller2_node.cpp:11:10:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   11 |       kd_[01;36m[K([m[K0.000 01),
+      |          [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/pid_controller2_node.dir/build.make:76: CMakeFiles/pid_controller2_node.dir/src/pid_controller2_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pid_controller2_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/albert/Workspaces/line_follower/build/software_pid_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/software_pid_controller -- -j20 -l20
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target pid_controller2_node[0m
+[0.045s] [ 50%] Built target pid_controller_node
+[0.046s] [ 75%] [32mBuilding CXX object CMakeFiles/pid_controller2_node.dir/src/pid_controller2_node.cpp.o[0m
+[5.558s] [100%] [32m[1mLinking CXX executable pid_controller2_node[0m
+[5.861s] [100%] Built target pid_controller2_node
+[5.872s] Invoked command in '/home/albert/Workspaces/line_follower/build/software_pid_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/software_pid_controller -- -j20 -l20
+[5.899s] Invoking command in '/home/albert/Workspaces/line_follower/build/software_pid_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/software_pid_controller
+[5.910s] -- Install configuration: ""
+[5.910s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/lib/software_pid_controller/pid_controller_node
+[5.910s] -- Installing: /home/albert/Workspaces/line_follower/install/software_pid_controller/lib/software_pid_controller/pid_controller2_node
+[5.917s] -- Set runtime path of "/home/albert/Workspaces/line_follower/install/software_pid_controller/lib/software_pid_controller/pid_controller2_node" to ""
+[5.918s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/package_run_dependencies/software_pid_controller
+[5.918s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/parent_prefix_path/software_pid_controller
+[5.918s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/ament_prefix_path.sh
+[5.918s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/ament_prefix_path.dsv
+[5.918s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/path.sh
+[5.918s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/environment/path.dsv
+[5.918s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.bash
+[5.918s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.sh
+[5.918s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.zsh
+[5.918s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/local_setup.dsv
+[5.918s] -- Installing: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.dsv
+[5.919s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/ament_index/resource_index/packages/software_pid_controller
+[5.919s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/cmake/software_pid_controllerConfig.cmake
+[5.919s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/cmake/software_pid_controllerConfig-version.cmake
+[5.919s] -- Up-to-date: /home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.xml
+[5.921s] Invoked command in '/home/albert/Workspaces/line_follower/build/software_pid_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/software_pid_controller

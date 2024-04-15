@@ -1,0 +1,376 @@
+[0.074s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ee411035ab0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ee411035630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ee411035630>>)
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.183s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/albert/Workspaces/line_follower'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_bringup) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_bringup) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_bringup) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_bringup) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_bringup) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_bringup) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_bringup) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_bringup) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/line_follower_bringup' with type 'ros.ament_cmake' and name 'line_follower_bringup'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_description) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_description) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_description) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_description) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_description) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_description) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_description) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_description) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_follower_description) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/line_follower_description' with type 'ros.ament_cmake' and name 'line_follower_description'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_actuators_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_actuators_cpp) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_actuators_cpp) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_actuators_cpp) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_actuators_cpp) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_actuators_cpp) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_actuators_cpp) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_actuators_cpp) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_actuators_cpp) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/software_actuators_cpp' with type 'ros.ament_cmake' and name 'software_actuators_cpp'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_pid_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_pid_controller) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_pid_controller) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_pid_controller) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_pid_controller) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_pid_controller) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_pid_controller) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_pid_controller) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_pid_controller) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/software_pid_controller' with type 'ros.ament_cmake' and name 'software_pid_controller'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_sensors_py) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_sensors_py) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_sensors_py) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_sensors_py) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_sensors_py) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_sensors_py) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_sensors_py) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_sensors_py) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/software_sensors_py) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/software_sensors_py' with type 'ros.ament_python' and name 'software_sensors_py'
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.217s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'line_follower_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/albert/Workspaces/line_follower/build/line_follower_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/albert/Workspaces/line_follower/install/line_follower_description', 'merge_install': False, 'path': '/home/albert/Workspaces/line_follower/src/line_follower_description', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'software_actuators_cpp' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_actuators_cpp' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_actuators_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_actuators_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_actuators_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_actuators_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_actuators_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_actuators_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_actuators_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'software_actuators_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/albert/Workspaces/line_follower/build/software_actuators_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/albert/Workspaces/line_follower/install/software_actuators_cpp', 'merge_install': False, 'path': '/home/albert/Workspaces/line_follower/src/software_actuators_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_pid_controller' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_pid_controller' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_pid_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_pid_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_pid_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_pid_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_pid_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_pid_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_pid_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'software_pid_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/albert/Workspaces/line_follower/build/software_pid_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/albert/Workspaces/line_follower/install/software_pid_controller', 'merge_install': False, 'path': '/home/albert/Workspaces/line_follower/src/software_pid_controller', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_sensors_py' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_sensors_py' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_sensors_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_sensors_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_sensors_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_sensors_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_sensors_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_sensors_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'software_sensors_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'software_sensors_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/albert/Workspaces/line_follower/build/software_sensors_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/albert/Workspaces/line_follower/install/software_sensors_py', 'merge_install': False, 'path': '/home/albert/Workspaces/line_follower/src/software_sensors_py', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'line_follower_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/albert/Workspaces/line_follower/build/line_follower_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/albert/Workspaces/line_follower/install/line_follower_bringup', 'merge_install': False, 'path': '/home/albert/Workspaces/line_follower/src/line_follower_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.256s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/albert/Workspaces/line_follower/src/line_follower_description' with build type 'ament_cmake'
+[0.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/albert/Workspaces/line_follower/src/line_follower_description'
+[0.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/albert/Workspaces/line_follower/src/software_actuators_cpp' with build type 'ament_cmake'
+[0.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/albert/Workspaces/line_follower/src/software_actuators_cpp'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/albert/Workspaces/line_follower/src/software_pid_controller' with build type 'ament_cmake'
+[0.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/albert/Workspaces/line_follower/src/software_pid_controller'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/albert/Workspaces/line_follower/src/software_sensors_py' with build type 'ament_python'
+[0.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('software_sensors_py', 'ament_prefix_path')
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py/hook/ament_prefix_path.ps1'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py/hook/ament_prefix_path.dsv'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py/hook/ament_prefix_path.sh'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/Workspaces/line_follower/build/line_follower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/line_follower_description -- -j20 -l20
+[0.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/Workspaces/line_follower/build/software_actuators_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/software_actuators_cpp -- -j20 -l20
+[0.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/Workspaces/line_follower/build/software_pid_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/software_pid_controller -- -j20 -l20
+[0.456s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/albert/Workspaces/line_follower/src/software_sensors_py'
+[0.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/Workspaces/line_follower/build/line_follower_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/line_follower_description -- -j20 -l20
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/Workspaces/line_follower/build/software_actuators_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/software_actuators_cpp -- -j20 -l20
+[0.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/Workspaces/line_follower/build/line_follower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/line_follower_description
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/Workspaces/line_follower/build/software_actuators_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/software_actuators_cpp
+[0.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_description)
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/Workspaces/line_follower/build/line_follower_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/line_follower_description
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description' for CMake module files
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description' for CMake config files
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_description', 'cmake_prefix_path')
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/hook/cmake_prefix_path.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/hook/cmake_prefix_path.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/hook/cmake_prefix_path.sh'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description/bin'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description/lib/pkgconfig/line_follower_description.pc'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description/lib/python3.10/site-packages'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description/bin'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.ps1'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.sh'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.bash'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.zsh'
+[0.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/Workspaces/line_follower/install/line_follower_description/share/colcon-core/packages/line_follower_description)
+[0.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(software_actuators_cpp)
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp' for CMake module files
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/Workspaces/line_follower/build/software_actuators_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/software_actuators_cpp
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp' for CMake config files
+[0.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('software_actuators_cpp', 'cmake_prefix_path')
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/hook/cmake_prefix_path.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/hook/cmake_prefix_path.dsv'
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/hook/cmake_prefix_path.sh'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/bin'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/lib/pkgconfig/software_actuators_cpp.pc'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/lib/python3.10/site-packages'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/bin'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.ps1'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.sh'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.bash'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.zsh'
+[0.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/colcon-core/packages/software_actuators_cpp)
+[0.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_description)
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description' for CMake module files
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description' for CMake config files
+[0.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_description', 'cmake_prefix_path')
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/hook/cmake_prefix_path.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/hook/cmake_prefix_path.dsv'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/hook/cmake_prefix_path.sh'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description/bin'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description/lib/pkgconfig/line_follower_description.pc'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description/lib/python3.10/site-packages'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_description/bin'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.sh'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.bash'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_description/share/line_follower_description/package.zsh'
+[0.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/Workspaces/line_follower/install/line_follower_description/share/colcon-core/packages/line_follower_description)
+[0.524s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/albert/Workspaces/line_follower/src/line_follower_bringup' with build type 'ament_cmake'
+[0.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/albert/Workspaces/line_follower/src/line_follower_bringup'
+[0.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(software_actuators_cpp)
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp' for CMake module files
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp' for CMake config files
+[0.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('software_actuators_cpp', 'cmake_prefix_path')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/hook/cmake_prefix_path.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/hook/cmake_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/hook/cmake_prefix_path.sh'
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/bin'
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/lib/pkgconfig/software_actuators_cpp.pc'
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/lib/python3.10/site-packages'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/bin'
+[0.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.ps1'
+[0.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.dsv'
+[0.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.sh'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.bash'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/software_actuators_cpp/package.zsh'
+[0.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/Workspaces/line_follower/install/software_actuators_cpp/share/colcon-core/packages/software_actuators_cpp)
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/Workspaces/line_follower/build/line_follower_bringup': AMENT_PREFIX_PATH=/home/albert/Workspaces/line_follower/install/line_follower_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/albert/Workspaces/line_follower/install/line_follower_description:/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/line_follower_bringup -- -j20 -l20
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/Workspaces/line_follower/build/line_follower_bringup' returned '0': AMENT_PREFIX_PATH=/home/albert/Workspaces/line_follower/install/line_follower_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/albert/Workspaces/line_follower/install/line_follower_description:/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/line_follower_bringup -- -j20 -l20
+[0.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/Workspaces/line_follower/build/line_follower_bringup': AMENT_PREFIX_PATH=/home/albert/Workspaces/line_follower/install/line_follower_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/albert/Workspaces/line_follower/install/line_follower_description:/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/line_follower_bringup
+[0.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_bringup)
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup' for CMake module files
+[0.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/Workspaces/line_follower/build/line_follower_bringup' returned '0': AMENT_PREFIX_PATH=/home/albert/Workspaces/line_follower/install/line_follower_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/albert/Workspaces/line_follower/install/line_follower_description:/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/line_follower_bringup
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup' for CMake config files
+[0.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_bringup', 'cmake_prefix_path')
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.ps1'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.dsv'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.sh'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup/bin'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup/lib/pkgconfig/line_follower_bringup.pc'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup/lib/python3.10/site-packages'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup/bin'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/package.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/package.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/package.sh'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/package.bash'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/package.zsh'
+[0.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/colcon-core/packages/line_follower_bringup)
+[0.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_bringup)
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup' for CMake module files
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup' for CMake config files
+[0.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_bringup', 'cmake_prefix_path')
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.ps1'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.dsv'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.sh'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup/bin'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup/lib/pkgconfig/line_follower_bringup.pc'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup/lib/python3.10/site-packages'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/line_follower_bringup/bin'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/package.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/package.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/package.sh'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/package.bash'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/line_follower_bringup/package.zsh'
+[0.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/Workspaces/line_follower/install/line_follower_bringup/share/colcon-core/packages/line_follower_bringup)
+[0.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/Workspaces/line_follower/src/software_sensors_py': PYTHONPATH=/home/albert/Workspaces/line_follower/build/software_sensors_py/prefix_override:/home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/software_sensors_py build --build-base /home/albert/Workspaces/line_follower/build/software_sensors_py/build install --record /home/albert/Workspaces/line_follower/build/software_sensors_py/install.log --single-version-externally-managed install_data
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_sensors_py' for CMake module files
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_sensors_py' for CMake config files
+[0.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/Workspaces/line_follower/src/software_sensors_py' returned '0': PYTHONPATH=/home/albert/Workspaces/line_follower/build/software_sensors_py/prefix_override:/home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/software_sensors_py build --build-base /home/albert/Workspaces/line_follower/build/software_sensors_py/build install --record /home/albert/Workspaces/line_follower/build/software_sensors_py/install.log --single-version-externally-managed install_data
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_sensors_py/lib'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_sensors_py/bin'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_sensors_py/lib/pkgconfig/software_sensors_py.pc'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages'
+[0.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('software_sensors_py', 'pythonpath')
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py/hook/pythonpath.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py/hook/pythonpath.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py/hook/pythonpath.sh'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_sensors_py/bin'
+[0.890s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(software_sensors_py)
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py/package.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py/package.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py/package.sh'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py/package.bash'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_sensors_py/share/software_sensors_py/package.zsh'
+[0.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/Workspaces/line_follower/install/software_sensors_py/share/colcon-core/packages/software_sensors_py)
+[6.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/Workspaces/line_follower/build/software_pid_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/Workspaces/line_follower/build/software_pid_controller -- -j20 -l20
+[6.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/Workspaces/line_follower/build/software_pid_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/software_pid_controller
+[6.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(software_pid_controller)
+[6.213s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller' for CMake module files
+[6.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/Workspaces/line_follower/build/software_pid_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/Workspaces/line_follower/build/software_pid_controller
+[6.214s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller' for CMake config files
+[6.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('software_pid_controller', 'cmake_prefix_path')
+[6.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/hook/cmake_prefix_path.ps1'
+[6.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/hook/cmake_prefix_path.dsv'
+[6.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/hook/cmake_prefix_path.sh'
+[6.215s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller/lib'
+[6.215s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller/bin'
+[6.215s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller/lib/pkgconfig/software_pid_controller.pc'
+[6.215s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller/lib/python3.10/site-packages'
+[6.216s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller/bin'
+[6.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.ps1'
+[6.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.dsv'
+[6.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.sh'
+[6.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.bash'
+[6.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.zsh'
+[6.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/Workspaces/line_follower/install/software_pid_controller/share/colcon-core/packages/software_pid_controller)
+[6.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(software_pid_controller)
+[6.255s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller' for CMake module files
+[6.255s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller' for CMake config files
+[6.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('software_pid_controller', 'cmake_prefix_path')
+[6.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/hook/cmake_prefix_path.ps1'
+[6.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/hook/cmake_prefix_path.dsv'
+[6.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/hook/cmake_prefix_path.sh'
+[6.257s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller/lib'
+[6.257s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller/bin'
+[6.257s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller/lib/pkgconfig/software_pid_controller.pc'
+[6.257s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller/lib/python3.10/site-packages'
+[6.258s] Level 1:colcon.colcon_core.environment:checking '/home/albert/Workspaces/line_follower/install/software_pid_controller/bin'
+[6.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.ps1'
+[6.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.dsv'
+[6.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.sh'
+[6.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.bash'
+[6.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/Workspaces/line_follower/install/software_pid_controller/share/software_pid_controller/package.zsh'
+[6.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/Workspaces/line_follower/install/software_pid_controller/share/colcon-core/packages/software_pid_controller)
+[6.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.260s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.266s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.276s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/Workspaces/line_follower/install/local_setup.ps1'
+[6.277s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/albert/Workspaces/line_follower/install/_local_setup_util_ps1.py'
+[6.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/Workspaces/line_follower/install/setup.ps1'
+[6.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/Workspaces/line_follower/install/local_setup.sh'
+[6.280s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/albert/Workspaces/line_follower/install/_local_setup_util_sh.py'
+[6.280s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/Workspaces/line_follower/install/setup.sh'
+[6.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/Workspaces/line_follower/install/local_setup.bash'
+[6.282s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/Workspaces/line_follower/install/setup.bash'
+[6.283s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/Workspaces/line_follower/install/local_setup.zsh'
+[6.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/Workspaces/line_follower/install/setup.zsh'

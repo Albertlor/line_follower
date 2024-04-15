@@ -1,0 +1,22 @@
+[0.384s] Invoking command in '/home/albert/Workspaces/line_follower/src/software_sensors_py': PYTHONPATH=/home/albert/Workspaces/line_follower/build/software_sensors_py/prefix_override:/home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/software_sensors_py build --build-base /home/albert/Workspaces/line_follower/build/software_sensors_py/build install --record /home/albert/Workspaces/line_follower/build/software_sensors_py/install.log --single-version-externally-managed install_data
+[0.527s] running egg_info
+[0.528s] writing ../../build/software_sensors_py/software_sensors_py.egg-info/PKG-INFO
+[0.528s] writing dependency_links to ../../build/software_sensors_py/software_sensors_py.egg-info/dependency_links.txt
+[0.528s] writing entry points to ../../build/software_sensors_py/software_sensors_py.egg-info/entry_points.txt
+[0.528s] writing requirements to ../../build/software_sensors_py/software_sensors_py.egg-info/requires.txt
+[0.528s] writing top-level names to ../../build/software_sensors_py/software_sensors_py.egg-info/top_level.txt
+[0.529s] reading manifest file '../../build/software_sensors_py/software_sensors_py.egg-info/SOURCES.txt'
+[0.530s] writing manifest file '../../build/software_sensors_py/software_sensors_py.egg-info/SOURCES.txt'
+[0.530s] running build
+[0.530s] running build_py
+[0.530s] running install
+[0.530s] running install_lib
+[0.531s] running install_data
+[0.531s] running install_egg_info
+[0.532s] removing '/home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages/software_sensors_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.532s] Copying ../../build/software_sensors_py/software_sensors_py.egg-info to /home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages/software_sensors_py-0.0.0-py3.10.egg-info
+[0.532s] running install_scripts
+[0.546s] Installing camera_node script to /home/albert/Workspaces/line_follower/install/software_sensors_py/lib/software_sensors_py
+[0.546s] Installing line_detector_node script to /home/albert/Workspaces/line_follower/install/software_sensors_py/lib/software_sensors_py
+[0.546s] writing list of installed files to '/home/albert/Workspaces/line_follower/build/software_sensors_py/install.log'
+[0.561s] Invoked command in '/home/albert/Workspaces/line_follower/src/software_sensors_py' returned '0': PYTHONPATH=/home/albert/Workspaces/line_follower/build/software_sensors_py/prefix_override:/home/albert/Workspaces/line_follower/install/software_sensors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/software_sensors_py build --build-base /home/albert/Workspaces/line_follower/build/software_sensors_py/build install --record /home/albert/Workspaces/line_follower/build/software_sensors_py/install.log --single-version-externally-managed install_data

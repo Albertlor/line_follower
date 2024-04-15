@@ -49,13 +49,13 @@ class Line_Detector_Node(Node):
         v0,v1,v2,v3 = average_intensity_list
 
         # Calculate the sensor current position and the angular error
-        sensor_position = 3 - (0*v0 + 1*v1 + 2*v2 + 3*v3) // (v0+v1+v2+v3)
+        sensor_position = 3 - (0*v0 + 1*v1 + 2*v2 + 3*v3) / (v0+v1+v2+v3)
         print(f"Cam0:{v0}, Cam1:{v1}, Cam2:{v2}, Cam3:{v3}",flush=True)
         self.chord_length_error = (self.sensor_center_position-sensor_position) * 0.012 #0.012 is half of the distance between two sensors
         angular_error = math.atan2(self.chord_length_error,self.base_length/2)
 
         # Publish angular_error to a topic
-        self.angular_error_str.data = angular_error
+        self.angular_error_str.data = self.sensor_center_position-sensor_position
         self.publish_to_error_state()
         
         self.display_image(roi_list, "Camera")
